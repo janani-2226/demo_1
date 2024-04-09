@@ -8,7 +8,7 @@ const url = process.env.DB;
 
 
 app.use(cors({
-  origin: "http://localhost:3000"
+  origin: "https://sb-admin-dwhe.vercel.app"
 }))
 
 app.post("/users", async (req, res) => {
