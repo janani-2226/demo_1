@@ -9,7 +9,7 @@ const url = process.env.DB;
 
 
 app.use(cors({
-  origin: ["https://sb-admin-dwhe.vercel.app"]
+  origin: ["https://stndz-port.vercel.app"]
 }))
 
 app.post("/users", async (req, res) => {
