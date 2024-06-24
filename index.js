@@ -7,7 +7,6 @@ app.use(express.json());
 const url = process.env.DB;
 
 
-
 app.use(cors({
   origin: ["https://stndz-port.vercel.app"]
 }))
